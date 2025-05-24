@@ -3,7 +3,9 @@ layout: default
 ---
 <link rel="stylesheet" href="/css/style.css">
 
-# Hello, GitHub Pages
+# 👋 Hello there, <br/> I'm Lukasz Wiktorowicz.
+
+## I'm an emerging IT specialist with a focus on networking.
 
 <p align="center">
 This is my very first website hosted on GitHub Pages.
