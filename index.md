@@ -7,7 +7,7 @@ layout: default
 ## I'm an emerging IT specialist with a focus on networking.
 
 <p align="center">
-This is my very first website hosted on GitHub Pages.
+Testing GitHub Pages.
 </p>
 
 ---
