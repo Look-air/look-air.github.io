@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="/css/style.css">
 
 # 👋 Hello there, <br/> I'm Lucas Wiktorowicz.
 
