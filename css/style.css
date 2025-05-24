@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "jekyll-theme-modernist"
+@import "{{ site.theme }}/assets/css/style"
 
 .logo {
   width: 25%;
