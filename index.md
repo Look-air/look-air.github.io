@@ -3,7 +3,7 @@ layout: default
 ---
 <link rel="stylesheet" href="/css/style.css">
 
-# 👋 Hello there, <br/> I'm Lukasz Wiktorowicz.
+# 👋 Hello there, <br/> I'm Lucas Wiktorowicz.
 
 ## I'm an emerging IT specialist with a focus on networking.
 
