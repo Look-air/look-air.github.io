@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="/css/style.css">
 
 # Hello, GitHub Pages
 
