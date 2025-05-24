@@ -10,8 +10,9 @@ This is my very first website hosted on GitHub Pages.
 </p>
 
 ---
-![Logo](./images/logos/A+-svg.svg?sanitize=true)
 <div align="center">
+  <img src="./images/logos/Security+-svg.svg?sanitize=true" alt="Logo" class="logo">
+  <img src="./images/logos/Network+-svg.svg?sanitize=true" alt="Logo" class="logo">
   <img src="./images/logos/A+-svg.svg?sanitize=true" alt="Logo" class="logo">
 </div>
 ```
