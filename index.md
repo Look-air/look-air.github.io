@@ -1,8 +1,5 @@
 ---
 layout: default
-title: "Welcome to My GitHub Pages Site"
-description: Lucas
-show_downloads: false
 ---
 
 # Hello, GitHub Pages
