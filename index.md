@@ -7,7 +7,7 @@ layout: default
 ## I'm an emerging IT specialist with a focus on networking.
 
 <p align="center">
-  Testing GitHub Pages.
+  Testing GitHub Pages. <br/>
   Home Blog About
 </p>
 
