@@ -7,12 +7,13 @@ layout: default
     <h1>👋 Hello there, <br/> I'm Lucas Wiktorowicz.</h1>
   </div>
 </div>
-
-## I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
-## My current project is building this site, so please feel free to message me your thoughts.
 <p align="center">
-  Home Blog About
+  <h2>Home Blog About</h2>
 </p>
+
+<h2>I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
+<br/>My current project is building this site, so please feel free to message me your thoughts.</h2>
+
 
 ---
 <div align="center">
