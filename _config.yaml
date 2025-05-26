@@ -7,4 +7,4 @@ plugins:
 collections:
   projects:
     output: true
-    permalink: /projects/:title/
+    permalink: /blog/:title/
