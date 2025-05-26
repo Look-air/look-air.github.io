@@ -28,11 +28,12 @@ body {
 /* Wrapper for the button group */
 .btn-wrapper {
   display: inline-flex;                      /* Arrange buttons in one line */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  /* Outer shadow for 3D effect */
+  box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;  /* Outer shadow for 3D effect */
   border-radius: 8px;                         /* Overall rounding for the group */
   overflow: hidden;                           /* Ensures inner buttons clip nicely */
   margin-top: 15px;
-  align-items: center;
+  justify-content: center;     /* Center the buttons horizontally */
+  align-items: center;         /* Align vertically if needed */
 }
 
 /* General styling for each button */
