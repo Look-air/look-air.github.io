@@ -25,3 +25,6 @@ title: "Blog"
   </li>
   {% endfor %}
 </ul>
+```
+  © 2025 Lucas Wiktorowicz. All rights reserved.
+```
