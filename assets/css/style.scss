@@ -25,37 +25,52 @@ body {
   object-fit: cover;
 }
 /* Container to center the navigation */
-.nav-buttons {
-  text-align: center; /* centers the inline elements inside */
-  margin-top: 20px;  /* adds vertical spacing */
+/* Wrapper for the button group */
+.btn-wrapper {
+  display: inline-flex;                      /* Arrange buttons in one line */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  /* Outer shadow for 3D effect */
+  border-radius: 8px;                         /* Overall rounding for the group */
+  overflow: hidden;                           /* Ensures inner buttons clip nicely */
 }
 
-/* Style for the buttons */
-.btn {
-  display: inline-block;           /* allows setting dimensions and margins */
-  text-decoration: none;           /* remove the underline */
-  background-color: #5997D5;       /* primary button color */
-  color: #fff;                     /* white text for readability */
-  padding: 12px 24px;              /* space inside the button */
-  margin: 0 10px;                  /* spacing between buttons */
-  border-radius: 4px;              /* rounded corners */
-  border: 2px solid #333;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+/* General styling for each button */
+.btn-wrapper .btn {
+  background-color: #007bff;            /* Base color */
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;                   /* Adjust for your desired button size */
+  flex: 1;                              /* Distribute space equally */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Add a slight inset shadow for a 3D bevel on the button */
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+  border: none;
 }
 
-.nav-buttons a.btn:hover,
-.nav-buttons a.btn:focus {
+/* Add a subtle divider between buttons (except for the last one) */
+.btn-wrapper .btn:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Rounded corners on the outer edges only */
+.btn-wrapper .btn:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.btn-wrapper .btn:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Hover effects for a more dynamic feel */
+.btn-wrapper .btn:hover,
+.btn-wrapper .btn:focus {
   background-color: #0056b3;
-  transform: translateY(-2px);
-  /* Increase the shadow on hover to enhance the 3D effect */
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
 }
 
-.nav-buttons a.btn:active {
+/* Optional active state */
+.btn-wrapper .btn:active {
   transform: translateY(0);
   background-color: #004494;
-  /* Reduce the shadow when the button is pressed */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
