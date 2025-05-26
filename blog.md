@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Blog"
+---
+
+<h1 style="text-align:center;">Blog</h1>
+
+<h5 style="text-align:center;">Welcome to my blog page. Below you’ll find a list of my blog posts with a brief overview.</h5>
+
+<ul class="blog-list" style="list-style: none; padding: 0;">
+  {% for post in site.blog %}
+  <li class="blog-item" style="margin-bottom:20px;">
+    <a href="{{ post.url }}" style="text-decoration: none; color: inherit;">
+      <div style="display: flex; align-items: center; border-bottom: 1px solid #DDD; padding-bottom: 10px; margin-bottom: 10px;">
+        {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }}" style="width: 100px; height: 100px; object-fit: cover; margin-right: 20px;">
+        {% endif %}
+        <div class="blog-info">
+          <h2 style="margin: 0;">{{ post.title }}</h2>
+          <p class="blog-date" style="font-size: 0.9em; color: #666;">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p>{{ post.excerpt }}</p>
+        </div>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
