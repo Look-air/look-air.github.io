@@ -28,19 +28,19 @@ body {
 .btn-container {
   text-align: center;
 }
-
-/* Button group styled as an inline-flex which fits content */
 .btn-wrapper {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
+  /*
+    Fixed RGBA syntax: using rgba(0, 0, 0, 0.2) and rgba(0, 0, 0, 0.45)
+  */
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
   border-radius: 8px;
   overflow: hidden;
   margin-top: 10px;
 }
 
-/* Styling for each button */
 .btn-wrapper .btn {
   background-color: #5090CF;
   color: #fff;
@@ -51,7 +51,7 @@ body {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Adjust borders for the first and last buttons */
+/* Adjusted rounded borders for first and last buttons */
 .btn-wrapper .btn:first-child {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -61,12 +61,13 @@ body {
   border-bottom-right-radius: 8px;
 }
 
-/* Optional hover effects */
+/* Increased downward lift on hover for a more pronounced effect */
 .btn-wrapper .btn:hover,
 .btn-wrapper .btn:focus {
   background-color: #0056b3;
-  transform: translateY(-1px);
+  transform: translateY(-3px); /* Increased from -1px to -3px */
 }
+
 .btn-wrapper .btn:active {
   transform: translateY(0);
   background-color: #004494;
