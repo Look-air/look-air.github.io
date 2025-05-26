@@ -2,7 +2,10 @@
 layout: default
 ---
 
-# 👋 Hello there, <br/> I'm Lucas Wiktorowicz.
+<div style="text-align: center; margin-top: 40px;">
+  <img src="/images/avatar/hoodie.jpeg" alt="Lucas Wiktorowicz" class="avatar">
+  <h1>👋 Hello there, <br/> I'm Lucas Wiktorowicz.</h1>
+</div># 
 
 ## I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
 ## My current project is building this site, so please feel free to message me your thoughts.
