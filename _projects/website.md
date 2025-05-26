@@ -1,7 +1,7 @@
 ---
 title: "Github Pages"
 date: 2025-02-15
-image: /images/website.jpg
+image: /images/projects/website.jpg
 excerpt: "Time has come to start my own website."
 layout: project
 ---
