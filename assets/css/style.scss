@@ -27,7 +27,7 @@ body {
 /* Container to center the navigation */
 .nav-buttons {
   text-align: center; /* centers the inline elements inside */
-  margin: 0px auto;  /* adds vertical spacing */
+  margin-top: 5px auto;  /* adds vertical spacing */
 }
 
 /* Style for the buttons */
@@ -39,6 +39,7 @@ body {
   padding: 12px 24px;              /* space inside the button */
   margin: 0 10px;                  /* spacing between buttons */
   border-radius: 4px;              /* rounded corners */
+  border: 2px solid #333;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
