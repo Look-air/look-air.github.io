@@ -24,56 +24,51 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
-/* Container to center the navigation */
-/* Wrapper for the button group */
-.btn-wrapper {
-  display: inline-flex;                      /* Arrange buttons in one line */
-  box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;  /* Outer shadow for 3D effect */
-  border-radius: 8px;                         /* Overall rounding for the group */
-  overflow: hidden;                           /* Ensures inner buttons clip nicely */
-  margin-top: 15px;
-  justify-content: center;     /* Center the buttons horizontally */
-  align-items: center;         /* Align vertically if needed */
+/* The outer container centers its content using text-align */
+.btn-container {
+  text-align: center;
 }
 
-/* General styling for each button */
+/* Button group styled as an inline-flex which fits content */
+.btn-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/* Styling for each button */
 .btn-wrapper .btn {
-  background-color: #007bff;            /* Base color */
+  background-color: #007bff;
   color: #fff;
   text-decoration: none;
-  padding: 12px 24px;                   /* Adjust for your desired button size */
-  flex: 1;                              /* Distribute space equally */
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  /* Add a slight inset shadow for a 3D bevel on the button */
+  padding: 12px 24px;
+  border: 2px solid #333;
   box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
-  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Add a subtle divider between buttons (except for the last one) */
-.btn-wrapper .btn:not(:last-child) {
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-/* Rounded corners on the outer edges only */
+/* Adjust borders for the first and last buttons */
 .btn-wrapper .btn:first-child {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
-
 .btn-wrapper .btn:last-child {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
-/* Hover effects for a more dynamic feel */
+/* Optional hover effects */
 .btn-wrapper .btn:hover,
 .btn-wrapper .btn:focus {
   background-color: #0056b3;
   transform: translateY(-1px);
 }
-
-/* Optional active state */
 .btn-wrapper .btn:active {
   transform: translateY(0);
   background-color: #004494;
 }
+
