@@ -40,19 +40,22 @@ body {
   margin: 0 10px;                  /* spacing between buttons */
   border-radius: 4px;              /* rounded corners */
   border: 2px solid #333;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-/* Hover and active state for buttons */
-.btn:hover,
-.btn:focus {
+.nav-buttons a.btn:hover,
+.nav-buttons a.btn:focus {
   background-color: #0056b3;
-  transform: translateY(-2px); /* slight lift on hover */
+  transform: translateY(-2px);
+  /* Increase the shadow on hover to enhance the 3D effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Optional active (click) state styling */
-.btn:active {
+.nav-buttons a.btn:active {
   transform: translateY(0);
   background-color: #004494;
+  /* Reduce the shadow when the button is pressed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
