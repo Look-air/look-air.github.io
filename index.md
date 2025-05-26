@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="nav-buttons">
   <a class="btn" href="{{ site.baseurl }}/">Home</a>
-  <a class="btn" href="{{ site.baseurl }}/projects.md">Projects</a>
+  <a class="btn" href="{{ site.baseurl }}/projects">Projects</a>
   <a class="btn" href="{{ site.baseurl }}/contact">Contact</a>
 </div> 
 
