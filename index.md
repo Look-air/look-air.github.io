@@ -8,10 +8,10 @@ layout: default
 <div class="profile-container">
   <img src="/images/avatar/hoodie.jpeg" alt="Lucas Wiktorowicz" class="avatar">
   <div>
-    <h1>👋 Hello<br>I'm Lucas</h1>
+    <h1>Hello 👋 <br>I'm Lucas Wiktorowicz</h1>
   </div>
 </div>
-
+<br>
 ### I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
 ### My current project is building this site, so please feel free to message me your thoughts.
 
