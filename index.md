@@ -8,11 +8,11 @@ layout: default
   </div>
 </div>
 <div align="center">
-  <h2>Home Projects Contact</h2>
+  ## Home Projects Contact
 </div>
 
-<h2>I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
-<br/>My current project is building this site, so please feel free to message me your thoughts.</h2>
+## I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
+## My current project is building this site, so please feel free to message me your thoughts.
 
 
 ---
