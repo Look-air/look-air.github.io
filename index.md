@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-<div class="nav-buttons">
-  <a class="btn" href="{{ site.baseurl }}/">Home</a>
-  <a class="btn" href="{{ site.baseurl }}/projects">Projects</a>
-  <a class="btn" href="{{ site.baseurl }}/contact">Contact</a>
-</div> 
-
 <div class="profile-container">
   <img src="/images/avatar/hoodie.jpeg" alt="Lucas Wiktorowicz" class="avatar">
   <div>
