@@ -4,10 +4,9 @@ layout: default
 
 # 👋 Hello there, <br/> I'm Lucas Wiktorowicz.
 
-## I'm an emerging IT specialist with a focus on networking.
-
+## I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
+## My current project is building this site, so please feel free to message me your thoughts.
 <p align="center">
-  Testing GitHub Pages. <br/>
   Home Blog About
 </p>
 
@@ -19,5 +18,5 @@ layout: default
   <img src="./images/logos/microsoft-certified-fundamentals-badge.svg?sanitize=true" alt="Logo" class="logo">
 </div>
 ```
-  2025 Look Air. All rights reserved.
+  © 2025 Lucas Wiktorowicz. All rights reserved.
 ```
