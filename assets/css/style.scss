@@ -24,3 +24,34 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
+/* Container to center the navigation */
+.nav-buttons {
+  text-align: center; /* centers the inline elements inside */
+  margin: 20px auto;  /* adds vertical spacing */
+}
+
+/* Style for the buttons */
+.btn {
+  display: inline-block;           /* allows setting dimensions and margins */
+  text-decoration: none;           /* remove the underline */
+  background-color: #007bff;       /* primary button color */
+  color: #fff;                     /* white text for readability */
+  padding: 12px 24px;              /* space inside the button */
+  margin: 0 10px;                  /* spacing between buttons */
+  border-radius: 4px;              /* rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover and active state for buttons */
+.btn:hover,
+.btn:focus {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* slight lift on hover */
+}
+
+/* Optional active (click) state styling */
+.btn:active {
+  transform: translateY(0);
+  background-color: #004494;
+}
+
