@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
+## Home Projects Contact  
 <div class="profile-container">
   <img src="/images/avatar/hoodie.jpeg" alt="Lucas Wiktorowicz" class="avatar">
   <div>
-    <h1>👋 Hello there, <br/> I'm Lucas Wiktorowicz.</h1>
+    <h1>👋 Hello  I'm Lucas</h1>
   </div>
-</div>
-<div align="center">
-  ## Home Projects Contact
 </div>
 
 ## I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
