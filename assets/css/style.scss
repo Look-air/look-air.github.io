@@ -24,52 +24,62 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
-/* The outer container centers its content using text-align */
+/* Center the entire button group */
 .btn-container {
-  text-align: center;
-}
-.btn-wrapper {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  /*
-    Fixed RGBA syntax: using rgba(0, 0, 0, 0.2) and rgba(0, 0, 0, 0.45)
-  */
-  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 20px;
-  border-radius: 28px;
-  overflow: hidden;
-  margin-top: 10px;
+  text-align: center;  /* centers inline/inline-flex elements */
+  margin-top: 20px;    /* adjust vertical spacing as needed */
 }
 
+/* The "island" effect container for the buttons */
+.btn-wrapper {
+  display: inline-flex;              /* lines up buttons horizontally */
+  justify-content: center;
+  align-items: center;
+  padding: 5px;                      /* inner padding for breathing room */
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, 
+              rgba(0, 0, 0, 0.45) 0 6px 20px;  /* 1px outline and deep shadow */
+  border-radius: 8px;                /* rounds the outer container */
+  overflow: hidden;                  /* clips any overflowing corners */
+}
+
+/* Styling for each individual button */
 .btn-wrapper .btn {
+  display: inline-block;
   background-color: #5090CF;
   color: #fff;
   text-decoration: none;
-  padding: 12px 24px;
-  border: 2px solid #0056b3;
-  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+  padding: 12px 24px;                /* adjust size as needed */
+  border: 2px solid #ccc;            /* light grey border for each button */
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);  /* subtle inset shadow for 3D effect */
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Adjusted rounded borders for first and last buttons */
+/* Round the outer edges of the first and last buttons */
 .btn-wrapper .btn:first-child {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
+
 .btn-wrapper .btn:last-child {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
-/* Increased downward lift on hover for a more pronounced effect */
+/* Optionally remove the right border of all but the last button to make them "stick" together */
+.btn-wrapper .btn:not(:last-child) {
+  border-right: none;
+}
+
+/* (Optional) You can keep your hover and active effects as needed: */
 .btn-wrapper .btn:hover,
 .btn-wrapper .btn:focus {
   background-color: #0056b3;
-  transform: translateY(-1px); /* Increased from -1px to -3px */
+  transform: translateY(-3px);
 }
 
 .btn-wrapper .btn:active {
   transform: translateY(0);
   background-color: #004494;
 }
+
 
