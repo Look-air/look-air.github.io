@@ -10,7 +10,7 @@ title: "Contact"
 <br>
 <div style="text-align: center;">
   <h1>☎️Get in Touch</h1>
-  <h3>If you'd like to connect, feel free to reach out through any of the following channels:</h3>
+  <h5>If you'd like to connect, feel free to reach out through any of the following channels:</h5>
 
   <!-- Email -->
   <p><strong>📧Email:</strong> <a href="mailto:your.wiktorowicz@proton.me">wiktorowicz@proton.me</a></p>
