@@ -5,7 +5,7 @@ title: "Blog"
 
 <h1 style="text-align:center;">Blog</h1>
 
-<h5 style="text-align:center;">Welcome to my blog page. Below you’ll find a list of my posts with a brief overview.</h5>
+<h5 style="text-align:center;">Welcome to my blog page. Below you’ll find a list of my blog posts with a brief overview.</h5>
 
 <ul class="blog-list" style="list-style: none; padding: 0;">
   {% for post in paginator.posts %}
