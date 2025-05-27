@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="profile-container">
-  <img src="/images/avatar/hoodie.jpeg" alt="Lucas Wiktorowicz" class="avatar">
+  <img src="/images/avatar/profile.jpeg" alt="Lucas Wiktorowicz" class="avatar">
   <div>
     <h1>Hello 👋 <br>I'm Lucas Wiktorowicz</h1>
   </div>
