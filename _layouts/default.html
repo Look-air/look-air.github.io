@@ -43,9 +43,12 @@
 
       {{ content }}
 
-      {% raw %}```{% endraw %}<br>
-      © {{ "now" | date: "%Y" }} All rights reserved.<br>
-      {% raw %}```{% endraw %}
+      {% capture footer_block %}
+      '''
+      © {{ "now" | date: "%Y" }} All rights reserved.
+      '''
+      {% endcapture %}
+      {{ footer_block | markdownify }}
       </section>
     </div>
     <footer>
