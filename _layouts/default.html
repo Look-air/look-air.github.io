@@ -44,9 +44,9 @@
       {{ content }}
 
       {% capture footer_block %}
-      '''
+      ```
       © {{ "now" | date: "%Y" }} All rights reserved.
-      '''
+      ```
       {% endcapture %}
       {{ footer_block | markdownify }}
       </section>
