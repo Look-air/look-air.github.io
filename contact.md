@@ -17,6 +17,3 @@ title: "Contact"
   <!-- GitHub -->
   <p><strong>🖥GitHub:</strong> <a href="https://github.com/Look-air" target="_blank">github.com/Look-air</a></p>
 </div>
-```
-  © 2025 Lucas Wiktorowicz. All rights reserved.
-```
