@@ -43,9 +43,9 @@
 
       {{ content }}
 
-      {{ ''' 
-      © 2025 all rights reserved
-      ''' | markdownify }}
+      {% raw %}'''{% endraw %}
+      © {{ "now" | date: "%Y" }} All rights reserved.
+      {% raw %}'''{% endraw %}
       </section>
     </div>
     <footer>
