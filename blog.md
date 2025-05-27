@@ -3,7 +3,7 @@ layout: default
 title: "Blog"
 ---
 
-<h1 style="text-align:center;">Blog</h1>
+<h1 style="text-align:center;">💾Blog</h1>
 
 <h5 style="text-align:center;">Welcome to my blog page. Below you’ll find a list of my blog posts with a brief overview.</h5>
 
