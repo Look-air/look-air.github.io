@@ -12,7 +12,7 @@ layout: default
 ### My current project is building this site, so please feel free to message me your thoughts.
 ---
 <!-- Latest Blog Post Section -->
-### Most recent blog post:
+#### **Most recent blog post:**
 {% assign latest_post = site.posts | first %}
 {% if latest_post %}
   <div style="margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px;">
