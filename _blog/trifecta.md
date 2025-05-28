@@ -13,16 +13,16 @@ My journey to achieving the CompTIA “Trifecta” (Security+, Network+, A+) too
 Throughout this experience, I realized that the most important element in any learning process is to design a method that works for you. For me, breaking the study process into three distinct phases was the key:
 
 ### Phase 1: Build the Foundation
-* Approach: Watch video tutorials and take copious handwritten notes.
-* Output: Hundreds of A4 pages filled with insights and summaries.
-* Tools: Professor Messer’s free videos, plain A4 paper, and a good pencil :)
-* Why it works: Writing your own notes forces you to process and consolidate information in a way that reading alone never can.
+* *Approach:* Watch video tutorials and take copious handwritten notes.
+* *Output:* Hundreds of A4 pages filled with insights and summaries.
+* *Tools:* Professor Messer’s free videos, plain A4 paper, and a good pencil :)
+* *Why it works:* Writing your own notes forces you to process and consolidate information in a way that reading alone never can.
 
 ### Phase 2: Deepen Your Understanding
-Approach: Use a second set of video resources, focusing only on topics you feel less confident about.
-Pace: This phase moves much faster—no pausing or excessive notetaking, just a review and reinforcement of the gaps.
-Tools: Udemy courses (I benefited from either Mike Myers or Andrew Ramdayal’s style).
-Benefit: This selective review helps solidify what you learned in Phase 1 while efficiently covering new ground.
+* Approach: Use a second set of video resources, focusing only on topics you feel less confident about.
+* Pace: This phase moves much faster—no pausing or excessive notetaking, just a review and reinforcement of the gaps.
+* Tools: Udemy courses (I benefited from either Mike Myers or Andrew Ramdayal’s style).
+* *Benefit:* This selective review helps solidify what you learned in Phase 1 while efficiently covering new ground.
 
 ### Phase 3: Consolidate and Apply
 Approach: Now comes the time to review your handwritten notes and tackle practice exams.
