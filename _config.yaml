@@ -1,7 +1,12 @@
 title: "Lucas Wiktorowicz | Emerging IT specialist"
 description: "Security+, Network+, A+, MS-900"
 show_downloads: false
+paginate: 5
+paginate_path: "/blog/page:num"
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+
+
 
