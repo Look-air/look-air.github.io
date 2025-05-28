@@ -7,7 +7,7 @@ title: "Contact"
   <h1>☎️Get in Touch</h1>
   
   <h5>If you'd like to connect, feel free to reach out through any of the following channels:</h5>
-<hr style="border: none; height: 2px; background-color: #666; margin: 20px 0;">
+<hr>
   <!-- Email -->
   <p><strong>📧Email:</strong> <a href="mailto:your.wiktorowicz@proton.me">wiktorowicz@proton.me</a></p>
 
