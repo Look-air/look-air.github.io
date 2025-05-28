@@ -15,6 +15,7 @@ title: "Blog"
           {% endif %}
           <div class="blog-info">
             <h2 style="margin: 0;">{{ post.title }}</h2>
+            <p style="font-size: 0.9em; color: #666;">{{ post.date | date: "%B %d, %Y" }}</p>
             <p style="font-size: 0.9em; color: #666;">{{ post.excerpt }}</p>
           </div>
         </div>
