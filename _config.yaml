@@ -8,3 +8,4 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
+excerpt_separator: "<!--more-->"
