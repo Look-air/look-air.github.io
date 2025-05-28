@@ -10,7 +10,7 @@ layout: default
 <br>
 ### I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
 ### My current project is building this site, so please feel free to message me your thoughts.
-<hr>>
+<hr>
 <!-- Latest Blog Post Section -->
 #### **Most recent blog post:**
 {% assign latest_post = site.posts | first %}
@@ -29,9 +29,7 @@ layout: default
     </a>
   </div>
 {% endif %}
-
 <hr>
-#### **My certifications:**
 <div align="center">
   <img src="./images/logos/Security+-svg.svg?sanitize=true" alt="Logo" class="logo">
   <img src="./images/logos/Network+-svg.svg?sanitize=true" alt="Logo" class="logo">
