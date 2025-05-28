@@ -10,7 +10,7 @@ layout: default
 <br>
 ### I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
 ### My current project is building this site, so please feel free to message me your thoughts.
-
+---
 <!-- Latest Blog Post Section -->
 ### Most recent blog post:
 {% assign latest_post = site.posts | first %}
