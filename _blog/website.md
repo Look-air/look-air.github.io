@@ -23,11 +23,13 @@ At this point I wanted to try out Github Desktop app https://github.com/apps/des
 This app combined with Visual Studio Code, made it a lot smoother and easier to play around with multiple files and doing a batch commit and then a single push to the github server. 
 
 Next thing I needed was to add a footer for every page, but the problem was I wanted to use Jekyll theme markdown language inside html code. I have tried:
+{% raw %}
 ```html
-&#123;% raw %&#125;&#39;&#39;&#39;
-© &#123;&#123; "now" | date: "%Y" &#125;&#125; All rights reserved.
-&#123;% raw %&#125;&#39;&#39;&#39;
+{% raw %}'''{% endraw %}
+© {{ "now" | date: "%Y" }} All rights reserved.
+{% raw %}'''{% endraw %}
 ```
+{% endraw %}
 and
 ```html
 {% capture footer_block %}
