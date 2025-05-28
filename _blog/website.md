@@ -16,5 +16,5 @@ But since Hello World simple txt on white background is not exactly the type of 
 After initial setup and tests I decided on using modernist theme. However I wanted some modifications, like my own buttons, and I didn't want to have the default ones made by theme. 
 The easiest way was to just copy raw default.html from Modernist theme project and disable them. This also allowed me to change setting and enable zooming in on mobile devices.
 ```html
-user-scalable=yes
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 ```
