@@ -6,7 +6,7 @@ excerpt: "Time has come to start my own website."
 layout: default
 ---
 
-Building My GitHub Pages Site: A Journey in Web Development
+# Building My GitHub Pages Site: A Journey in Web Development
 Creating my GitHub Pages site was a fascinating, hands-on experience—one filled with learning, troubleshooting, and refining ideas until everything clicked. What started as a simple concept evolved into a structured, well-designed platform showcasing my blog. Here’s how I built it, step by step.
 
 At the beginning, I wanted a simple static website, and GitHub Pages seemed like the perfect free solution. I started with basic research—reading official documentation and experimenting with the default themes. While GitHub Pages offered easy hosting, I realized I needed Jekyll to add more customization and dynamic features.
