@@ -1,5 +1,4 @@
 ---
-title: "Github Pages"
 date: 2025-05-24
 image: /images/blog/website.jpg
 layout: default
@@ -26,5 +25,10 @@ With this I did other pages like contact and blog. All in markdown, with some ht
 Contact page is just details on how to reach me, so nothing fancy there, just a couple of links.
 Index page is mostly a welcome/about me site, with a showcase of certifications.
 Blog is the one I will be propably having the most fun with. This post is first from many to come I hope :)
+
+In order to make blog look more neat I needed a way to extract few first sentences from each blog post to the posts list. For this I used excerpt_separator, which I added to _config.yaml. The separator then can be used in each blog post file, to decide where is the borderline for sentence extraction.
+```html
+excerpt_separator: "<!--more-->"
+```html
 
 At this stage webpage was simple. I do want to add a page with resources featuring all software that is useful, similar page with links. But the thing I want to create now is adding pagination to blog, so it can feature up to few posts and then present a button for next/previous page. Also I need to work out a good way to present these posts with date, title and miniature. Thanks for reading. 
