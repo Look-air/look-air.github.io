@@ -22,11 +22,10 @@ The easiest way was to just copy raw default.html from Modernist theme project a
 At this point I wanted to try out Github Desktop app https://github.com/apps/desktop
 This app combined with Visual Studio Code, made it a lot smoother and easier to play around with multiple files and doing a batch commit and then a single push to the github server. 
 
-Next thing I needed was to add a footer for every page, but the problem was I wanted to use Jekyll theme markdown language inside html code. I have tried:
+With this I did other pages like contact and blog. All in markdown, with some html. For the index page I wanted to use vector graphics of logos I got from CompTIA after passing their certs. For this I asked copilot to help me out with proper way to reduce their size and center them in row. This ended in creation of style.scss that has details about classes like avatar, logos and buttons. 
 
-```html
-{% capture footer_block %}
-© {{ "now" | date: "%Y" }} Lucas Wiktorowicz. All rights reserved.
-{% endcapture %}
-{{ footer_block | markdownify }}
-```
+Contact page is just details on how to reach me, so nothing fancy there, just a couple of links.
+Index page is mostly a welcome/about me site, with a showcase of certifications.
+Blog is the one I will be propably having the most fun with. This post is first from many to come I hope :)
+
+At this stage webpage was simple. I do want to add a page with resources featuring all software that is useful, similar page with links. But the thing I want to create now is adding pagination to blog, so it can feature up to few posts and then present a button for next/previous page. Also I need to work out a good way to present these posts with date, title and miniature. Thanks for reading. 
