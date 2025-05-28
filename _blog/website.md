@@ -24,9 +24,9 @@ This app combined with Visual Studio Code, made it a lot smoother and easier to 
 
 Next thing I needed was to add a footer for every page, but the problem was I wanted to use Jekyll theme markdown language inside html code. I have tried:
 ```html
-{% raw %}'''{% endraw %}
-© {{ "now" | date: "%Y" }} All rights reserved.
-{% raw %}'''{% endraw %}
+&#123;% raw %&#125;&#39;&#39;&#39;
+© &#123;&#123; "now" | date: "%Y" &#125;&#125; All rights reserved.
+&#123;% raw %&#125;&#39;&#39;&#39;
 ```
 and
 ```html
@@ -37,3 +37,4 @@ and
 {% endcapture %}
 {{ footer_block | markdownify }}
 ```
+None of them worked, they simply gave me a txt output without processing markdown footing theme notation.
