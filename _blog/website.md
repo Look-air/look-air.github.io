@@ -14,10 +14,26 @@ I have used https://pages.github.com/ tutorial for a quick setup. It was really 
 But since Hello World simple txt on white background is not exactly the type of what I had in mind, I decided to reasearch free Jekyll themes available on Github https://pages.github.com/themes/
 
 After initial setup and tests I decided on using modernist theme. However I wanted some modifications, like my own buttons, and I didn't want to have the default ones made by theme. 
-The easiest way was to just copy raw default.html from Modernist theme project and disable them. This also allowed me to change setting and enable zooming in on mobile devices.
+The easiest way was to just copy raw default.html from Modernist theme project and disable them. This also allowed me to change setting and enable zooming in on mobile devices (user-scalable=yes).
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 ```
 
 At this point I wanted to try out Github Desktop app https://github.com/apps/desktop
-This combined with Visual Studio Code, which I used previously for CS50 Introduction to Python Course, made it a lot smoother and easier to play around with multiple files and doing a batch commit
+This app combined with Visual Studio Code, made it a lot smoother and easier to play around with multiple files and doing a batch commit and then a single push to the github server. 
+
+Next thing I needed was to add a footer for every page, but the problem was I wanted to use Jekyll theme markdown language inside html code. I have tried:
+```html
+{% raw %}'''{% endraw %}
+© {{ "now" | date: "%Y" }} All rights reserved.
+{% raw %}'''{% endraw %}
+```
+and
+```html
+{% capture footer_block %}
+'''
+© {{ "now" | date: "%Y" }} All rights reserved.
+'''
+{% endcapture %}
+{{ footer_block | markdownify }}
+```
