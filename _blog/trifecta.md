@@ -1,0 +1,66 @@
+---
+title: "CompTIA “Trifecta” Completed."
+date: 2025-05-27
+image: /images/blog/website.jpg
+excerpt: "My journey to achieving the CompTIA “Trifecta” (Security+, Network+, A+) took about 6 months of steady, relentless learning. I’m incredibly proud to have stayed the course and overcome my own self-doubt—there was no promised job or pay increase waiting at the finish line, just the certification that proved I could do it."
+layout: default
+---
+
+# CompTIA “Trifecta” Completed
+
+My journey to achieving the CompTIA “Trifecta” (Security+, Network+, A+) took about 6 months of steady, relentless learning. I’m incredibly proud to have stayed the course and overcome my own self-doubt—there was no promised job or pay increase waiting at the finish line, just the certification that proved I could do it.
+
+Throughout this experience, I realized that the most important element in any learning process is to design a method that works for you. For me, breaking the study process into three distinct phases was the key:
+
+### Phase 1: Build the Foundation
+* Approach: Watch video tutorials and take copious handwritten notes.
+* Output: Hundreds of A4 pages filled with insights and summaries.
+* Tools: Professor Messer’s free videos, plain A4 paper, and a good pencil :)
+* Why it works: Writing your own notes forces you to process and consolidate information in a way that reading alone never can.
+
+### Phase 2: Deepen Your Understanding
+Approach: Use a second set of video resources, focusing only on topics you feel less confident about.
+Pace: This phase moves much faster—no pausing or excessive notetaking, just a review and reinforcement of the gaps.
+Tools: Udemy courses (I benefited from either Mike Myers or Andrew Ramdayal’s style).
+Benefit: This selective review helps solidify what you learned in Phase 1 while efficiently covering new ground.
+
+### Phase 3: Consolidate and Apply
+Approach: Now comes the time to review your handwritten notes and tackle practice exams.
+Focus: This phase is all about understanding how questions are formatted, catching tricky language nuances (which is especially helpful for someone like me, a non-native English speaker), and identifying your weak spots.
+Tools: Practice tests (I used Dion tests on Udemy), AI chat tools for diverse explanations, and of course, those well-earned, sometimes sweat-soaked handwritten notes.
+The payoff: By this point, you’re not just memorizing facts but truly understanding the material, preparing you to avoid pitfalls in the exam.
+
+### The Certification Breakdown
+#### A+ Core 1: 
+Timeline: ~1 month (Phase 1: 2 weeks, Phase 2: 1 week, Phase 3: 1 week)
+Notes: 164 A4 pages
+Resources: Professor Messer, Udemy (Mike Meyers, Jason Dion Tests), Exam Compass
+Practice: Over 2000 test questions (I left no room for error on my very first attempt!)
+
+#### A+ Core 2: 
+Timeline: ~1 month (Phase 1: 2 weeks, Phase 2: 1 week, Phase 3: 1 week)
+Notes: 196 A4 pages
+Resources: Similar resources as Core 1 
+Practice: Hands-on labs (e.g., launching a Linux VM, experimenting with Windows Active Directory). Over 1000 test questions
+
+#### Network+:
+Timeline: 6 weeks (Phase 1: >2 weeks, Phase 2: 2 weeks, Phase 3: >1 week)
+Notes: 225 A4 pages
+Resources: Professor Messer, Udemy (Andrew Ramdayal, Jason Dion Tests)
+Practice: Extensive practice with tools like Cisco Packet Tracer, Nmap, and Wireshark, along with subnetting exercises on subnetipv4.com plus over 1000 practice questions
+
+#### Security+: 
+Timeline: 6 weeks (Phase 1: 3 weeks, Phase 2: 2 weeks, Phase 3: >1 week)
+Notes: 285 A4 pages
+Resources: Professor Messer, Udemy (Andrew Ramdayal, Dion Tests) and again, over 1000 practice questions
+Practice: This one was information-dense—compared to Network+, over 1000 practice questions plus some labs by Andrew
+
+I managed to pass every exam on my first try, but let me be honest—during the tests, I often felt like I was moments away from failure. The questions were tricky, and some of the performance-based questions (PBQs) felt completely out of scope compared to what I had prepared for. Among all of them, Network+ was the most enjoyable challenge.
+
+Final Thought: Remember, the biggest obstacle in this journey can be yourself. Stay motivated, be consistent, and avoid procrastination at all costs. Rather than chasing immediate rewards, focus on walking the extra mile in your own learning process. Whether you’re aiming to pass an exam or genuinely master a subject, the commitment you build along the way will be your greatest asset.
+
+What’s Next? If you’re considering diving into a certification program or any learning journey, think of your study method as your unique blueprint for success. Have you developed your own phases or techniques to manage complex subjects? Let’s share our strategies and inspire one another to keep pushing the boundaries in IT.
+
+A huge thanks to Professor Messer - his free YouTube materials have been superb and a great base for every exam topic. For A+, Mike Meyers from Total Seminars blend of humor and deep expertise kept me motivated and made the journey smoother. I’m also grateful to Andrew Ramdayal for his Udemy course; his network labs were the key to making everything click. Finally, I owe a special thank you to Jason Dion from Dion Training , whose practice tests taught me how CompTIA thinks and where are my weak areas, boosting both my confidence and knowledge.
+
+I’d also like to extend my gratitude to the other content creators who enriched my experience with fresh perspectives and innovative approaches, helping break the daily routine. Thank you, NetworkChuck and David Bombal.

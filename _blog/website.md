@@ -1,13 +1,15 @@
 ---
+title: "Time has come to start my own website."
 date: 2025-05-24
 image: /images/blog/website.jpg
+excerpt: "The start was pretty straightforward. I needed a project to start something that can be visible. And there's nothing better than a website."
 layout: default
 ---
 
-# Building My GitHub Pages Site
+# Time has come to start my own website.
 
 The start was pretty straightforward. I needed a project to start something that can be visible. And there's nothing better than a website.
-<!--more-->
+
 I have used https://pages.github.com/ tutorial for a quick setup. It was really nice to see how fast deployment is on github hosting service. 
 But since Hello World simple txt on white background is not exactly the type of what I had in mind, I decided to reasearch free Jekyll themes available on Github https://pages.github.com/themes/
 
@@ -26,9 +28,4 @@ Contact page is just details on how to reach me, so nothing fancy there, just a 
 Index page is mostly a welcome/about me site, with a showcase of certifications.
 Blog is the one I will be propably having the most fun with. This post is first from many to come I hope :)
 
-In order to make blog look more neat I needed a way to extract few first sentences from each blog post to the posts list. For this I used excerpt_separator, which I added to _config.yaml. The separator then can be used in each blog post file, to decide where is the borderline for sentence extraction.
-```html
-excerpt_separator: "<!--more-->"
-```
-
-At this stage webpage was simple. I do want to add a page with resources featuring all software that is useful, similar page with links. But the thing I want to create now is adding pagination to blog, so it can feature up to few posts and then present a button for next/previous page. Thanks for reading. 
+At this stage webpage was simple. I do want to add a page with resources featuring all software that is useful, similar page with links. But the thing I want to create now is adding pagination to blog, so it can feature up to few posts and then present a button for next/previous page. Also I need to work out a good way to present these posts with date, title and miniature. Thanks for reading. 
