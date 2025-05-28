@@ -18,3 +18,6 @@ The easiest way was to just copy raw default.html from Modernist theme project a
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 ```
+
+At this point I wanted to try out Github Desktop app https://github.com/apps/desktop
+This combined with Visual Studio Code, which I used previously for CS50 Introduction to Python Course, made it a lot smoother and easier to play around with multiple files and doing a batch commit
