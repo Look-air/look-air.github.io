@@ -9,7 +9,7 @@ title: "Blog"
   {% for post in paginator.posts %}
     <li style="margin-bottom:20px;">
       <a href="{{ post.url }}" style="text-decoration: none; color: inherit;">
-        <div style="display: flex; align-items: center; border-bottom: 1px solid #DDD; padding-bottom: 10px; margin-bottom: 10px;">
+        <div style="display: flex; align-items: center; padding-bottom: 10px; margin-bottom: 10px;">
           {% if post.image %}
             <img src="{{ post.image }}" alt="{{ post.title }}" style="width: 100px; height: 100px; object-fit: cover; margin-right: 20px;">
           {% endif %}
@@ -20,6 +20,7 @@ title: "Blog"
           </div>
         </div>
       </a>
+      <hr>
     </li>
   {% endfor %}
 </ul>
