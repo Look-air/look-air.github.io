@@ -30,7 +30,7 @@ layout: default
   </div>
 {% endif %}
 
-<hr>>
+<hr>
 #### **My certifications:**
 <div align="center">
   <img src="./images/logos/Security+-svg.svg?sanitize=true" alt="Logo" class="logo">
