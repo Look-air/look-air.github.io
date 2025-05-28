@@ -12,6 +12,12 @@ body {
   margin: 10px;
   display: inline-block;
 }
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto; /* optional – centers the image */
+}
 .profile-container {
   display: flex;
   align-items: center;
