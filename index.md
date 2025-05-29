@@ -10,15 +10,15 @@ layout: default
 <br>
 ### **I'm a certified emerging IT specialist passionate about network solutions and IT security.**
 
-## Current goals: 
+#### Current goals: 
 
 * completing Wireshark course by David Bombal
 * progression through TryHackMe
 * playing with Homelab
 * writing blog posts
 
-## Motto: *"Endure, in enduring grow strong"* Dak'kon - *Planescape Torment*
-## Song of the month: Linkin Park - The Emptiness Machine
+#### Motto: *"Endure, in enduring grow strong"* Dak'kon - *Planescape Torment*
+#### Song of the month: Linkin Park - The Emptiness Machine
 
 <hr>
 <!-- Latest Blog Post Section -->
