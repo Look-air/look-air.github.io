@@ -8,8 +8,18 @@ layout: default
   </div>
 </div>
 <br>
-### I'm a certified emerging IT specialist passionate about network solutions and IT innovation.
-### My current project is building this site, so please feel free to message me your thoughts.
+### **I'm a certified emerging IT specialist passionate about network solutions and IT security.**
+
+## Current goals: 
+
+* completing Wireshark course by David Bombal
+* progression through TryHackMe
+* playing with Homelab
+* writing blog posts
+
+## Motto: *"Endure, in enduring grow strong"* Dak'kon - *Planescape Torment*
+## Song of the month: Linkin Park - The Emptiness Machine
+
 <hr>
 <!-- Latest Blog Post Section -->
 #### **Most recent blog post:**
