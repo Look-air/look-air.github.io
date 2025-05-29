@@ -7,6 +7,7 @@ layout: default
     <h1>Hello 👋 <br>I'm Lucas Wiktorowicz</h1>
   </div>
 </div>
+<br>
 <hr>
 ### **I'm a certified emerging IT specialist passionate about network solutions and IT security.**
 
