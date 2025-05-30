@@ -60,3 +60,5 @@ For now, that would be all.
 * Redesigned buttons, since there might be more than three
 
 Thanks for reading.
+
+<img src="/images/logos/github.png" alt="Image description" class="responsive-image">
