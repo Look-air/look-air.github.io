@@ -26,6 +26,7 @@ The Contact page is just details on how to reach me, so nothing fancy there-just
 Thanks to the great [**Guide for Jekyll**](https://jekyllrb.com), I was able to set up a proper blog system. I added pagination to the blog so that it can feature a few posts per page and then display buttons for next/previous page. I had to change a few things, like moving my blog.md to its own folder and changing its file type to HTML to ensure pagination would work. I also made a few test posts to see how the layout would look and if the next/previous page buttons would function correctly. During that testing, I made the mistake of creating files with future dates, which made them invisible. After fixing the dates, everything worked.
 
 Last but not least, I decided to buy a cheap domain—this was a good test of configuring DNS TXT, **A**, and **CNAME** records.
+<img src="/images/blog/github_pages/CNAME.png" alt="Image description" class="responsive-image">
 
 For now, that would be all.
 
