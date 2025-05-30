@@ -11,7 +11,9 @@ layout: blog
 The start was pretty straightforward. I needed a project to start something that could be visible. And there's **nothing better than a website**. After quick google search I cam across [**GitHub Pages**](https://pages.github.com/), not only it was free but I already had a Github account from CS50P certification. 
 
 So without much waiting I used their tutorial for a quick setup. Just creating new repository with **username.github.io** where username is **your** username. And then adding simple index.md file inside root of that repository. That file could have somehting simple as "Hello" inside of it. Save it, wait few minutes for page rebuild and visit your site at username.github.io That's how simple it was. 
+
 <img src="/images/blog/github_pages/repo_name.png" alt="Image description" class="responsive-image">
+
 It was also really nice to see how fast deployment is on GitHub’s hosting service, didn't even wait a minute and it was ready. But since a Hello World simple text on a white background is not exactly what I had in mind, I decided to check out the free Jekyll themes available on GitHub [**here**](https://pages.github.com/themes/).
 
 After the initial setup and tests, I decided to use the Modernist theme. However, I wanted some modifications—like my own buttons—and I didn't want to have the default ones provided by the theme. The easiest way was to copy the raw default.html from the Modernist theme project and disable them. This also allowed me to change settings and enable zooming on mobile devices (**user-scalable=yes**).
@@ -28,6 +30,7 @@ The Contact page is just details on how to reach me, so nothing fancy there-just
 Thanks to the great [**Guide for Jekyll**](https://jekyllrb.com), I was able to set up a proper blog system. I added pagination to the blog so that it can feature a few posts per page and then display buttons for next/previous page. I had to change a few things, like moving my blog.md to its own folder and changing its file type to HTML to ensure pagination would work. I also made a few test posts to see how the layout would look and if the next/previous page buttons would function correctly. During that testing, I made the mistake of creating files with future dates, which made them invisible. After fixing the dates, everything worked.
 
 Last but not least, I decided to buy a cheap domain—this was a good test of configuring DNS TXT, **A**, and **CNAME** records.
+
 <img src="/images/blog/github_pages/CNAME.png" alt="Image description" class="responsive-image">
 
 For now, that would be all.
