@@ -9,9 +9,9 @@ layout: blog
 <h1 style="margin-bottom: 5px;">{{ page.title }}</h1>
 <p style="font-size: 0.9em; color: #666; margin-top: 0;">{{ page.date | date: "%B %d, %Y" }}</p>
 The start was pretty straightforward. I needed a project to start something that could be visible. And there's **nothing better than a website**. After quick google search I cam across [**GitHub Pages**](https://pages.github.com/), not only it was free but I already had a Github account from CS50P certification. 
-<img src="/images/blog/github_pages/repo_name.png" alt="Image description" class="responsive-image">
 
-So without much waiting I used their tutorial for a quick setup. Just creating new repository with username.github.io where username is your username. And then adding simple index.md file inside root of that repository. That file could have somehting simple as "Hello" inside of it. Save it, wait few minutes for page rebuild and visit your site at username.github.io That's how simple it was. 
+So without much waiting I used their tutorial for a quick setup. Just creating new repository with **username.github.io** where username is **your** username. And then adding simple index.md file inside root of that repository. That file could have somehting simple as "Hello" inside of it. Save it, wait few minutes for page rebuild and visit your site at username.github.io That's how simple it was. 
+<img src="/images/blog/github_pages/repo_name.png" alt="Image description" class="responsive-image">
 It was also really nice to see how fast deployment is on GitHub’s hosting service, didn't even wait a minute and it was ready. But since a Hello World simple text on a white background is not exactly what I had in mind, I decided to check out the free Jekyll themes available on GitHub [**here**](https://pages.github.com/themes/).
 
 After the initial setup and tests, I decided to use the Modernist theme. However, I wanted some modifications—like my own buttons—and I didn't want to have the default ones provided by the theme. The easiest way was to copy the raw default.html from the Modernist theme project and disable them. This also allowed me to change settings and enable zooming on mobile devices (**user-scalable=yes**).
