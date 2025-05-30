@@ -17,6 +17,9 @@ So without much waiting I used their tutorial for a quick setup. Just creating n
 It was also really nice to see how fast deployment is on GitHub’s hosting service, didn't even wait a minute and it was ready. But since a Hello World simple text on a white background is not exactly what I had in mind, I decided to check out the free Jekyll themes available on GitHub [**here**](https://pages.github.com/themes/).
 
 After the initial setup and tests, I decided to use the Modernist theme.
+```
+_config.yaml
+```
 ```yaml
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
