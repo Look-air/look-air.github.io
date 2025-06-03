@@ -22,7 +22,6 @@ layout: default
 #### Song of the month: Linkin Park - The Emptiness Machine
 
 <hr>
-<!-- Latest Blog Post Section -->
 #### **Most recent blog post:**
 {% assign latest_post = site.posts | first %}
 {% if latest_post %}

@@ -15,7 +15,7 @@ body {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: auto; /* optional – centers the image */
+  margin: auto; 
 }
 .profile-container {
   display: flex;
@@ -29,59 +29,46 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
-/* Center the entire button group */
 .btn-container {
-  text-align: center;  /* centers inline/inline-flex elements */
-  margin-top: 20px;    /* adjust vertical spacing as needed */
+  text-align: center;
+  margin-top: 20px;
 }
-
-/* The "island" effect container for the buttons */
 .btn-wrapper {
-  display: inline-flex;              /* lines up buttons horizontally */
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;                      /* inner padding for breathing room */
+  padding: 5px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, 
-              rgba(0, 0, 0, 0.45) 0 6px 20px;  /* 1px outline and deep shadow */
-  border-radius: 8px;                /* rounds the outer container */
-  overflow: hidden;                  /* clips any overflowing corners */
+              rgba(0, 0, 0, 0.45) 0 6px 20px;
+  border-radius: 8px;
+  overflow: hidden;
 }
-
-/* Styling for each individual button */
 .btn-wrapper .btn {
   display: inline-block;
   background-color: #5090CF;
   color: #fff;
   text-decoration: none;
-  padding: 12px 24px;                /* adjust size as needed */
-  border: 2px solid #ccc;            /* light grey border for each button */
-  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);  /* subtle inset shadow for 3D effect */
+  padding: 12px 24px;
+  border: 2px solid #ccc;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
-/* Round the outer edges of the first and last buttons */
 .btn-wrapper .btn:first-child {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
-
 .btn-wrapper .btn:last-child {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-
-/* Optionally remove the right border of all but the last button to make them "stick" together */
 .btn-wrapper .btn:not(:last-child) {
   border-right: none;
 }
-
-/* (Optional) You can keep your hover and active effects as needed: */
 .btn-wrapper .btn:hover,
 .btn-wrapper .btn:focus {
   background-color: #0056b3;
   transform: translateY(-3px);
 }
-
 .btn-wrapper .btn:active {
   transform: translateY(0);
   background-color: #004494;
