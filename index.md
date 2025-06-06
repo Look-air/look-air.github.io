@@ -34,7 +34,7 @@ layout: default
         <div>
           <h2 style="margin: 0;">{{ latest_post.title }}</h2>
           <p style="font-size: 0.9em; color: #666;">{{ latest_post.date | date: "%B %d, %Y" }}</p>
-          <p style="font-size: 0.9em; color: #666;">{{ post.excerpt }}</p>
+          <p style="font-size: 0.9em; color: #666;">{{ latest_post.excerpt }}</p>
         </div>
       </div>
     </a>
