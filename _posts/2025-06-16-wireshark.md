@@ -57,7 +57,7 @@ ip.src == 192.168.1.1
 ```wireshark
 ip.dst == 192.168.1.1
 ```
-* **Port**: Focus on a specific port used in communication. This is where the list above becomes useful :) You can recognise traffic just by looking at port being used.
+* **Port**: Focus on a specific port used in communication. This is where the list above becomes useful :) You can recognize traffic just by looking at port being used.
 
 ```wireshark
 tcp.port == 80
@@ -92,6 +92,15 @@ http.request
 
 <img src="/images/blog/wireshark/dragdrop.gif" alt="Wireshark" class="responsive-image">
 
+Wireshark's filtering language also allows you to combine expressions using logical operators, making your searches even more precise. You can use the NOT operator (!) to exclude specific traffic.
+For example: !tcp filters out all TCP packets. The AND operator (either as && or the word and) lets you narrow the filter further, such as ip.src == 192.168.1.1 && tcp.port == 80, which selects only packets from that source with a destination port of 80. 
+The OR operator (either || or or) can broaden your filter to catch multiple conditions at once. For example: tcp.port == 80 || tcp.port == 443 displays packets on either common web ports.
+
+```wireshark
+!(NOT)
+&&(AND)
+||(OR)
+```
 Don't be afraid to experiment with different scenarios. Try capturing unsecure connections in your homelab, like monitoring FTP sessions to see passwords transmitted in clear text. For even more advanced practice, set up a virtual network using GNS3, which even integrates Wireshark for seamless packet analysis. The key is to learn by doing, so challenge yourself with real-world setups and discover the power of hands-on network analysis.
 
 <img src="/images/blog/wireshark/babyshark.png" alt="Wireshark" class="responsive-image">
