@@ -81,7 +81,7 @@ tcp.flags.syn == 1
 http.request
 ```
 * Drag and drop
-<img src="/images/blog/wireshark/dragdrop.png" alt="Wireshark" class="responsive-image">
+<img src="/images/blog/wireshark/dragdrop.gif" alt="Wireshark" class="responsive-image">
 
 
 <img src="/images/blog/wireshark/babyshark.png" alt="Wireshark" class="responsive-image">
