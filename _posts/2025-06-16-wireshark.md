@@ -49,15 +49,19 @@ As for Wireshark itself, it is all about learning how to filter data. Understand
 
 Here are some basic filtering options:
 
-* **Source IP**: Filter packets originating from a specific IP address. 
+* **IP address**: Filter packets based on IP address, or you can specify the source or destination addresss. This is layer 3 in OSI model.
 
 ```wireshark
+ip.addr == 192.168.1.1
 ip.src == 192.168.1.1
+ip.dst == 192.168.1.1
 ```
-* **Destination IP**: Filter packets destined for a particular IP address.
+* **MAC Address**: Filter traffic based on the hardware (MAC) address, or you can specify the source or destination address. This is layer 2 in OSI model.
 
 ```wireshark
-ip.dst == 192.168.1.1
+eth.addr == 00:11:22:33:44:55
+eth.src == 00:11:22:33:44:55
+eth.dst == 00:11:22:33:44:55
 ```
 * **Port**: Focus on a specific port used in communication. This is where the list above becomes useful :) You can recognize traffic just by looking at port being used.
 
@@ -74,11 +78,6 @@ tcp.port == 80
 tcp
 udp
 icmp
-```
-* **MAC Address**: Filter traffic based on the source or destination hardware (MAC) address, which operates at Layer 2 of the OSI model.
-
-```wireshark
-eth.addr == 00:11:22:33:44:55
 ```
 * **VLAN ID**: Isolate traffic on a specific VLAN.
 
