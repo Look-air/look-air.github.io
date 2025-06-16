@@ -57,12 +57,12 @@ ip.src == 192.168.1.1
 ```wireshark
 ip.dst == 192.168.1.1
 ```
-* **Port**: Focus on a specific port used in communication. This is where the list above becomes useful :)
+* **Port**: Focus on a specific port used in communication. This is where the list above becomes useful :) You can recognise traffic just by looking at port being used.
 
 ```wireshark
 tcp.port == 80
 ```
-* **Connection**: Quickly filter all traffic between two nodes by right-clicking on a packet and selecting “Conversation Filter".
+* **Connection**: Quickly filter all traffic between two nodes by right-clicking on a packet and selecting “Conversation Filter". Ethernet - Layer 2, IPv4/6 - Layer 3.
 
 <img src="/images/blog/wireshark/conversation.png" alt="Conversation filter" class="responsive-image">
 
