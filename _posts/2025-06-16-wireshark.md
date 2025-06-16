@@ -67,6 +67,7 @@ eth.dst == 00:11:22:33:44:55
 
 ```wireshark
 tcp.port == 80
+udp.port == 53
 ```
 * **Connection**: Quickly filter all traffic between two nodes by right-clicking on a packet and selecting “Conversation Filter". Ethernet - Layer 2, IPv4/6 - Layer 3.
 
