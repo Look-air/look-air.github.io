@@ -47,41 +47,51 @@ As for Wireshark itself, it is all about learning how to filter data. Understand
 
 Here are some basic filtering options:
 
-* Source IP: Filter packets originating from a specific IP address. 
+* **Source IP**: Filter packets originating from a specific IP address. 
+
 ```wireshark
 ip.src == 192.168.1.1
 ```
-* Destination IP: Filter packets destined for a particular IP address.
+* **Destination IP**: Filter packets destined for a particular IP address.
+
 ```wireshark
 ip.dst == 192.168.1.1
 ```
-* Port: Focus on a specific port used in the communication. That's where the list above is useful :)
+* **Port**: Focus on a specific port used in communication. This is where the list above becomes useful :)
+
 ```wireshark
 tcp.port == 80
 ```
-* Connection: Quickly filter all traffic between two nodes by right-clicking on a packet and selecting “Conversation Filter"
+* **Connection**: Quickly filter all traffic between two nodes by right-clicking on a packet and selecting “Conversation Filter".
+
 <img src="/images/blog/wireshark/conversation.png" alt="Conversation filter" class="responsive-image">
 
-* Protocol: Focus on a certain protocol by simply typing its name. Examples: tcp, udp, icmp (useful for ping requests and responses)
+* **Protocol**: Focus on a certain protocol by simply typing its name. Examples: tcp, udp, icmp (useful for ping requests and responses)
 
-* MAC Address: Filter traffic based on the source or destination hardware (MAC) address, which is Layer 2 in OSI model.
+* **MAC Address**: Filter traffic based on the source or destination hardware (MAC) address, which operates at Layer 2 of the OSI model.
+
 ```wireshark
 eth.addr == 00:11:22:33:44:55
 ```
-* VLAN ID: Isolate traffic on a specific VLAN.
+* **VLAN ID**: Isolate traffic on a specific VLAN.
+
 ```wireshark
 vlan.id == 100
 ```
-* TCP Flags: Isolate stages of TCP communication. For instance, to view the packets that initiate a connection (SYN packets).
+* **TCP Flags**: Isolate stages of TCP communication. For instance, to view the packets that initiate a connection (SYN packets).
+
 ```wireshark
 tcp.flags.syn == 1
 ```
-* Application Protocol Indicators (OSI Layer 7): Sometimes, you may want to filter traffic for a specific application or service.
+* **Application Protocol Indicators** (OSI Layer 7): Sometimes, you may want to filter traffic for a specific application or service.
+
 ```wireshark
 http.request
 ```
-* Drag and drop
+* **Drag and Drop**: You can drag and drop parameters directly from the Packet Details window to filter by specific attributes.
+
 <img src="/images/blog/wireshark/dragdrop.gif" alt="Wireshark" class="responsive-image">
 
+Don't be afraid to experiment with different scenarios. Try capturing unsecure connections in your homelab, like monitoring FTP sessions to see passwords transmitted in clear text. For even more advanced practice, set up a virtual network using GNS3, which even integrates Wireshark for seamless packet analysis. The key is to learn by doing, so challenge yourself with real-world setups and discover the power of hands-on network analysis.
 
 <img src="/images/blog/wireshark/babyshark.png" alt="Wireshark" class="responsive-image">
