@@ -19,7 +19,7 @@ layout: default
 * playing with Homelab
 * writing blog posts
 
-#### Currently reading: "Acing the CCNA exam" Jeremy McDowell
+#### Currently reading: *"Acing the CCNA exam"* by Jeremy McDowell
 #### Motto: *"Endure, in enduring grow strong"* Dak'kon - *Planescape Torment*
 
 <hr>

@@ -10,8 +10,8 @@ layout: blog
 <p style="font-size: 0.9em; color: #666; margin-top: 0;">{{ page.date | date: "%B %d, %Y" }}</p>
 During my preparation for Network+ and now for CCNA using Wireshark is an essential part of the process. Wireshark and Cisco Packet Tracer are must-haves for quality, hands-on learning. Capturing and filtering traffic is really what it’s all about.
 
-If you're looking to grasp the basics of [**Wireshark**](https://www.wireshark.org/), I highly recommend checking out the Wireshark room on [**TryHackMe**](https://tryhackme.com/room/wiresharkfilters). I just finished it, and it was a great hands-on experience! That room is free to access, and Wireshark itself is free and open-source.
-One tip before diving in: make sure you understand TCP, UDP, and the most common ports—Wireshark is, after all, a tool for analyzing network traffic.
+If you're looking to grasp the basics of [**Wireshark**](https://www.wireshark.org/), I highly recommend checking out the Wireshark room on [**TryHackMe**](https://tryhackme.com/room/wiresharkfilters). I just finished it, and it was a great hands-on experience! That room is free to access, and Wireshark itself is free and open-source. This is, of course, just the start. For a more thorough guide, I recommend David Bombal and his course on Udemy, which is very detailed and dives into CCNA topics while teaching Wireshark.
+One tip before diving in: make sure you understand TCP, UDP, and the most common ports. Wireshark is, after all, a tool for analyzing network traffic.
 
 Here is a short list of the most useful ports I used while preparing for CompTIA Network+:
 
@@ -42,6 +42,18 @@ Here is a short list of the most useful ports I used while preparing for CompTIA
 * 3389 TCP - **RDP**: Remote Desktop Protocol
 * 4460 TCP - **NTS**: Network Time Security
 * 5060, 5061 UDP/TCP - **SIP**: Session Initiation Protocol
+
+As for Wireshark itself, it is all about learning how to filter data. Understanding source, destination, protocols. Thanks for David Bombal course I saw also that is possible to catch VoiP traffic and play it without leaving Wireshark.
+
+Here are some basic filtering options:
+
+* by source IP
+
+* by destination IP
+
+* by port
+
+* by connection ( you can just right click a connection you are interested in and just filter out everything that has happened between these two nodes )
 
 
 
