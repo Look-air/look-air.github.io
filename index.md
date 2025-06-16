@@ -13,13 +13,14 @@ layout: default
 
 #### Current goals: 
 
-* completing Wireshark course by David Bombal
+* completing CCNA 200-301 course by Jeremy's IT lab
+* passing CCNA certification
 * progression through TryHackMe
 * playing with Homelab
 * writing blog posts
 
+#### Currently reading: "Acing the CCNA exam" Jeremy McDowell
 #### Motto: *"Endure, in enduring grow strong"* Dak'kon - *Planescape Torment*
-#### Song of the month: Linkin Park - The Emptiness Machine
 
 <hr>
 #### **Most recent blog post:**
