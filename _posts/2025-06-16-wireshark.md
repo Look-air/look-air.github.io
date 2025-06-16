@@ -47,24 +47,41 @@ As for Wireshark itself, it is all about learning how to filter data. Understand
 
 Here are some basic filtering options:
 
-* Source IP: Filter packets originating from a specific IP address. Example: 
+* Source IP: Filter packets originating from a specific IP address. 
 ```wireshark
-ip.src == 10.1.1.254
+ip.src == 192.168.1.1
 ```
-* Destination IP: Filter packets destined for a particular IP address. Example: ip.dst == 192.168.1.1
-
-* Port: Focus on a specific port used in the communication. That's where the list above is useful :) Example: tcp.port == 80 or udp.port == 53
-
-* Connection: Quickly filter all traffic between two nodes by right-clicking on a packet and selecting “Follow TCP Stream” (or similar), or manually using a filter like: Example: (ip.src == 192.168.1.100 and ip.dst == 192.168.1.1) or (ip.src == 192.168.1.1 and ip.dst == 192.168.1.100)
+* Destination IP: Filter packets destined for a particular IP address.
+```wireshark
+ip.dst == 192.168.1.1
+```
+* Port: Focus on a specific port used in the communication. That's where the list above is useful :)
+```wireshark
+tcp.port == 80
+```
+* Connection: Quickly filter all traffic between two nodes by right-clicking on a packet and selecting “Conversation Filter"
+<img src="/images/blog/wireshark/conversation.png" alt="Conversation filter" class="responsive-image">
 
 * Protocol: Focus on a certain protocol by simply typing its name. Examples: tcp, udp, icmp (useful for ping requests and responses)
 
-* MAC Address: Filter traffic based on the source or destination hardware (MAC) address. Example: eth.addr == 00:11:22:33:44:55
+* MAC Address: Filter traffic based on the source or destination hardware (MAC) address, which is Layer 2 in OSI model.
+```wireshark
+eth.addr == 00:11:22:33:44:55
+```
+* VLAN ID: Isolate traffic on a specific VLAN.
+```wireshark
+vlan.id == 100
+```
+* TCP Flags: Isolate stages of TCP communication. For instance, to view the packets that initiate a connection (SYN packets).
+```wireshark
+tcp.flags.syn == 1
+```
+* Application Protocol Indicators (OSI Layer 7): Sometimes, you may want to filter traffic for a specific application or service.
+```wireshark
+http.request
+```
+* Drag and drop
+<img src="/images/blog/wireshark/dragdrop.png" alt="Wireshark" class="responsive-image">
 
-* VLAN ID: Isolate traffic on a specific VLAN. Example: vlan.id == 100
-
-* TCP Flags: Isolate stages of TCP communication. For instance, to view the packets that initiate a connection (SYN packets), you can use: Example: tcp.flags.syn == 1 and tcp.flags.ack == 0
-
-* Application Protocol Indicators (OSI Layer 7): Sometimes, you may want to filter traffic for a specific application or service: http.request, dns, ftp
 
 <img src="/images/blog/wireshark/babyshark.png" alt="Wireshark" class="responsive-image">
