@@ -13,6 +13,7 @@ During my preparation for Network+ and now for CCNA using Wireshark is an essent
 If you're looking to grasp the basics of [**Wireshark**](https://www.wireshark.org/), I highly recommend checking out the Wireshark room on [**TryHackMe**](https://tryhackme.com/room/wiresharkfilters). I just finished it, and it was a great hands-on experience! That room is free to access, and Wireshark itself is free and open-source. This is, of course, just the start. For a more thorough guide, I recommend David Bombal and his course on Udemy, which is very detailed and dives into CCNA topics while teaching Wireshark.
 One tip before diving in: make sure you understand TCP, UDP, and the most common ports. Wireshark is, after all, a tool for analyzing network traffic.
 
+### Port numbers
 Here is a short list of the most useful ports I used while preparing for CompTIA Network+:
 
 * 20, 21 TCP - **FTP**: File Transfer Protocol
@@ -43,6 +44,7 @@ Here is a short list of the most useful ports I used while preparing for CompTIA
 * 4460 TCP - **NTS**: Network Time Security
 * 5060, 5061 UDP/TCP - **SIP**: Session Initiation Protocol
 
+### Basic filtering
 As for Wireshark itself, it is all about learning how to filter data. Understanding source, destination, protocols. Thanks for David Bombal course I saw also that is possible to catch VoiP traffic and play it without leaving Wireshark.
 
 Here are some basic filtering options:
@@ -66,8 +68,13 @@ tcp.port == 80
 
 <img src="/images/blog/wireshark/conversation.png" alt="Conversation filter" class="responsive-image">
 
-* **Protocol**: Focus on a certain protocol by simply typing its name. Examples: tcp, udp, icmp (useful for ping requests and responses)
+* **Protocol**: Focus on a certain protocol by simply typing its name.
 
+```wireshark
+tcp
+udp
+icmp
+```
 * **MAC Address**: Filter traffic based on the source or destination hardware (MAC) address, which operates at Layer 2 of the OSI model.
 
 ```wireshark
@@ -82,16 +89,24 @@ vlan.id == 100
 
 ```wireshark
 tcp.flags.syn == 1
+tcp.flags.ack == 1
+tcp.flags.fin == 1
+tcp.flags.reset == 1
 ```
 * **Application Protocol Indicators** (OSI Layer 7): Sometimes, you may want to filter traffic for a specific application or service.
 
 ```wireshark
-http.request
+http
+dns
+ftp
+imap
+smtp
 ```
 * **Drag and Drop**: You can drag and drop parameters directly from the Packet Details window to filter by specific attributes.
 
 <img src="/images/blog/wireshark/dragdrop.gif" alt="Wireshark" class="responsive-image">
 
+### Logical operators
 Wireshark's filtering language also allows you to combine expressions using logical operators, making your searches even more precise. You can use the NOT operator (!) to exclude specific traffic.
 For example: !tcp filters out all TCP packets. The AND operator (either as && or the word and) lets you narrow the filter further, such as ip.src == 192.168.1.1 && tcp.port == 80, which selects only packets from that source with a destination port of 80. 
 The OR operator (either || or or) can broaden your filter to catch multiple conditions at once. For example: tcp.port == 80 || tcp.port == 443 displays packets on either common web ports.
@@ -101,6 +116,7 @@ The OR operator (either || or or) can broaden your filter to catch multiple cond
 &&(AND)
 ||(OR)
 ```
+### Don't stop
 Don't be afraid to experiment with different scenarios. Try capturing unsecure connections in your homelab, like monitoring FTP sessions to see passwords transmitted in clear text. For even more advanced practice, set up a virtual network using GNS3, which even integrates Wireshark for seamless packet analysis. The key is to learn by doing, so challenge yourself with real-world setups and discover the power of hands-on network analysis.
 
 <img src="/images/blog/wireshark/babyshark.png" alt="Wireshark" class="responsive-image">
