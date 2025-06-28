@@ -24,3 +24,12 @@ $ cd /              # straight to root
 $ cd -              # back to the previous directory you were in
 ```
 
+### Help
+```shell
+$ man <command>     # shows manual for command
+$ <command> --help  # brief summary of usage and flags
+$ info <command>    # good for learning
+$ whatis <command>  # brief description of command
+$ apropos <keyword> # searches for commands that have keyword in their manual
+```
+
