@@ -14,11 +14,11 @@ I’m currently doing some Linux training to sharpen my skills for Digital Foren
 This post will be my command-journal. As I progress through the course expect updates here until I’m done.
 
 ### Navigating the filesystem
-```linux
+```shell
 $ pwd               # tells you exactly where you are
 $ cd ..             # up one level
-$ cd ../Downloads   # up one level, then into downloads
-$ cd Documents/Reports   # down into Documents/Reports
+$ cd ../Downloads   # up one level, then into Downloads
+$ cd ex1/ex2        # down into ex1/ex2
 $ cd ~              # straight to your home directory
 $ cd /              # straight to root
 $ cd -              # back to the previous directory you were in
