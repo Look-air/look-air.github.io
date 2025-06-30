@@ -51,5 +51,69 @@ $ !<command>                # uses last iteration of command
 ### File listing
 ```shell
 $ ls                        # lists files in current dir
-$ ls -la                    # -l more info, -a shows hidden files
+$ ls -l                     # more info with metadata
+$ ls -ld                    # metadata about current directory
+$ ls -a                     # shows hidden files
+$ ls -lh                    # human readable size of files
+$ ls -R                     # recursive listing with subdirectories
+$ ls -S                     # sorts files by size
+$ ls -r                     # reverse sorting
+$ ls -t                     # sorts files by time, --fulltime more precise
 ```
+
+### File operations
+```shell
+$ cp <source> <destination> # used to copy files, ~ home dir, . current dir
+$ cp -v                     # verbose mode, visible output of copy process
+$ cp -p                     # preserves attributes of the files
+$ cp -i                     # interactive mode Yes/No, prevent overwrite
+$ cp -n                     # no overwrite without asking
+$ cp -r (or -R)             # copy recursively, including subdirectories
+$ mv <source> <destination> # used to move files
+$ mv -i -n -v               # same as in copy 
+$ rm <filename>             # removes a file
+$ rm -i                     # interactive, confirm before deleting
+$ rm -r                     # allows to remove directories
+$ rmdir <dirname>           # removes empty directories
+$ mkdir <dirname>           # create a directory
+```
+
+### Expressions
+```shell
+""  # double quotes, prevent from interpreting *, ?, [], etc.
+''  # single quotes, prevents all interpreting, even $ variables
+\   # backlash, to escape interpreting, \$1
+``  # backquote, to specify a command withing a command
+&   # command will run in background
+&&  # AND, chains commands, performed in sequence, only if they don't fail
+|   # pipeline, pass output of one command into another
+||  # OR, double pipeline, if one fails other runs
+;   # the semicolon, can run multiple commands one after another,
+    # just like &&, but this time commands can fail and next will run
+*   # represents zero or more of any character
+?   # represents any single character
+[ ]  # used to match a character from given range of characters
+[! ] # negate a range
+```
+
+### Compression / Archiving
+```shell
+$ gzip <filename>           # compress a file and replace with archive
+$ gzip -l <filename>        # information about compressed file
+$ gunzip <filnename>        # decompress a file
+$ tar -cf <archive> <file>  # creates archive from file or files, directory
+                            # -f flag is used just before archive name
+$ tar -z (or -j)            # -z or -j specfies compression, .tar.gz or tar.bz2
+$ tar -tf <archive>         # lists files in archive
+$ tar -xf <archive>         # decompress archive, -z for tar.gz, -j for tar.bz2
+$ tar -rvf <archive> <file> # adds file to choosen archive 
+$ zip <archive> <file>      # compress with zip
+$ zip -r                    # recursive will zip subfolders
+$ unzip <archive>           # decompress
+$ unzip -l                  # lists files in zip archive
+$ unzip <archive> <file>    # you can extract only certain file from archive
+$ xz, unxz                  # other compression algo
+$ bzip2, bunzip2            # other compression algo
+```
+
+<img src="/images/blog/linux_command/small_linux.png" alt="Linux Commander" class="responsive-image">
