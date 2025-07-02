@@ -40,7 +40,7 @@ $ echo <txt>                # prints txt on screen
 $ echo <txt> > file.txt     # overwrites file with the <txt>
 $ echo <txt> >> file.txt    # appends the txt to the file
 $ grep 'txt' file.txt       # searches for txt in a file, every line
-$ find . -name <name>       # searches for a file in . current dir
+$ find . -name <filename>   # searches for a file in . current dir
 $ history                   # displays history of used commands
 $ cal <month> <year>        # calendar
 $ date                      # current date
@@ -84,7 +84,7 @@ $ mkdir <dirname>           # create a directory
 ''  # single quotes, prevents all interpreting, even $ variables
 \   # backlash, to escape interpreting, \$1
 ``  # backquote, to specify a command withing a command
-&   # command will run in background
+&   # command will run in background, add this sign at the end
 &&  # AND, chains commands, performed in sequence, only if they don't fail
 |   # pipeline, pass output of one command into another
 ||  # OR, double pipeline, if one fails other runs
@@ -116,4 +116,30 @@ $ xz, unxz                  # other compression algo
 $ bzip2, bunzip2            # other compression algo
 ```
 
+### Txt operations
+```shell
+$ cat <filename>            # view file, good for small files
+$ pager <filename>          # displays one page of data at a time
+$ less <filename>           # similar to pager better navigation
+$ more <filename>           # limited navigation
+$ tail <filename>           # displays last 10 lines of a file
+$ head <filename>           # displays first 10 lines of a file
+$ grep 'txt' <filename>     # searches for txt in a file, every line 
+$ wc <filename>             # word count, -l lines, -w words, -c bytes
+```
+
+### System information
+```shell
+$ arch                      # system architecture info
+$ lscpu                     # cpu info
+$ lspci                     # PCI devices info
+$ lsusb                     # USB devices info
+$ free                      # used/free memory info, -m in MB, -g in GB, -s refresh in sec
+$ ps                        # current processes, -p PID, -u User, -ef all processes
+$ top                       # dynamic display of current processes
+$ uptime                    # info about load averages
+$ jobs                      # shows running jobs, commands in background
+$ kill <PID>                # terminates a process
+$ killall <commandname>     # terminates all processes related to a name
+```
 <img src="/images/blog/linux_command/small_linux.png" alt="Linux Commander" class="responsive-image">
