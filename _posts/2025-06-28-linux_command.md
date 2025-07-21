@@ -142,4 +142,43 @@ $ jobs                      # shows running jobs, commands in background
 $ kill <PID>                # terminates a process
 $ killall <commandname>     # terminates all processes related to a name
 ```
+
+### Network
+```shell
+$ ifconfig                  # display network config information
+$ ifdown <interfacename>    # takes interface down
+$ ifup <interfacename>      # takes interface up
+$ ip <options> <command>    # display interface, protocols, addresses
+$ ip route show             # table describing routing of packets
+$ dig example.com           # query DNS, resolves name to IP address
+$ ping <destination>        # send packets to a destination
+$ netstat                   # info about network, -i traffic, -r routing
+$ netstat -tln              # info about open ports
+$ ss                        # socket statistics, -s types of sockets
+$ host <domainname>         # determine IP address by name
+$ host <ipaddress>          # determine name by IP address
+$ ssh <user@hostname>       # ssh connection
+```
+
+### Permissions, Users
+```shell
+$ id <username>             # info about user
+$ id -g                     # main group info, -G secondary group info
+$ who                       # current logged in users
+$ uptime                    # system info
+$ last                      # show login and reboot records from logs
+$ groupadd -g <num> <gname> # add group with given GID and name
+$ groupmod -l <new> <old>   # change group name from old to new
+$ groupmod -g <num> <gname> # change group GID
+$ groupdel <gname>          # deletes a group, files are orphaned
+$ useradd -u <num> <name>   # create user with given UID and name
+$ useradd -g <gname> <name> # assign user to primary group, -G secondary
+$ useradd -mb <path> <name> # creates home directory at path
+$ useradd -md <path> <name> # creates full directory, includign username in path
+$ useradd -mk <path> <name> # specifies skeleton key directory
+$ passwd <name>             # creates password for user
+$ userdel                   # deletes user, files orphaned
+$ userdel -r                # deletes user and files
+```
+
 <img src="/images/blog/linux_command/small_linux.png" alt="Linux Commander" class="responsive-image">
