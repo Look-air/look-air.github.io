@@ -160,9 +160,9 @@ $ host <ipaddress>          # determine name by IP address
 $ ssh <user@hostname>       # ssh connection
 ```
 
-### Permissions, Users
+### Users, Groups, Permissions
 ```shell
-$ id <username>             # info about user
+$ id <username>             # info about user, UID, GID
 $ id -g                     # main group info, -G secondary group info
 $ who                       # current logged in users
 $ uptime                    # system info
@@ -179,6 +179,32 @@ $ useradd -mk <path> <name> # specifies skeleton key directory
 $ passwd <name>             # creates password for user
 $ userdel                   # deletes user, files orphaned
 $ userdel -r                # deletes user and files
+$ chgrp <gname> <file>      # change group of a file, -R recursive with subfolders
+$ stat <file>               # view permissions, ownership, other info of a file
+$ chown <user> <path/file>  # change ownership, <user:group> or <:group>
+$ chmod <perm> <file>       # set permission to a file, ugo(+-=)rwx
+$ chmod <numperm> <file>    # set num permission, 4 read, 2 write, 1 execute
+$ umask <num>               # set default permissions for new files, 777-002(umask)=775
 ```
 
+### Special Permissions
+```shell
+$ chmod u+s <file>          # when set on a file, it is run as the owner not user
+                            # chmod 4775, adding 4000 = setuid, 0775 = remove setuid
+$ chmod g+s <file>          # gives temporary group access when running file
+                            # chmod 2775, adding 2000 = setgid, 0775 = remove setgid
+                            # when set on directory subdirectories inherit setgid
+                            # in both cases s means there is also x, S means no x
+$ chmod o+t <file>          # Sticky bit, prevent users from deleting files they don't own
+                            # chmod 1775, adding 1000 = stickybit, 0775 = remove bit
+                            # t means there is also x, T means no x
+```
+
+### Hard/Soft Links
+```shell
+$ ls -li                    # lists files with their inode number, number of links
+$ ln <target> <linkname>    # Hard Link, cannot be used on dir, two filenames same inode
+$ ln -s <target> <linkname> # Symbolic (Soft) Link, can link other filesystems
+                            # pointer to a file, when file is removed pointers stop working
+```
 <img src="/images/blog/linux_command/small_linux.png" alt="Linux Commander" class="responsive-image">
