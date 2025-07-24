@@ -24,14 +24,14 @@ plugins:
   - jekyll-remote-theme
 ```
 
-However, I wanted some modifications—like my own buttons—and I didn't want to have the default ones provided by the theme. The easiest way was to copy the raw default.html from the Modernist theme project and disable them. This also allowed me to change settings and enable zooming on mobile devices, just find this **user-scalable=yes** in your _layouts\default.html and edit.
+However, I wanted some modifications, like my own buttons and I didn't want to have the default ones provided by the theme. The easiest way was to copy the raw default.html from the Modernist theme project and disable them. This also allowed me to change settings and enable zooming on mobile devices, just find this **user-scalable=yes** in your _layouts\default.html and edit.
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 ```
 
 At this point, I wanted to try out the [**Github Desktop App**](https://www.virtualbox.org/). This app, combined with [**Visual Studio Code**](https://code.visualstudio.com/), made it a lot smoother and easier to play around with multiple files, doing a batch commit, and then a single push to the GitHub server. Also managing files like images and just copying them to the local repository structure made a difference in overal experience of building a site.
 
-With this setup, I created other pages like Contact and Blog—all in Markdown with some HTML. For the index.md page, I wanted to use vector graphics of logos I got from CompTIA after passing their certs. For this, I asked Copilot to help me out with the proper way to reduce their size and center them in a row. This ended in the creation of a style.scss file that contains details about classes like avatar, logos, and buttons.
+With this setup, I created other pages like Contact and Blog, all in Markdown with some HTML. For the index.md page, I wanted to use vector graphics of logos I got from CompTIA after passing their certs. For this, I asked Copilot to help me out with the proper way to reduce their size and center them in a row. This ended in the creation of a style.scss file that contains details about classes like avatar, logos, and buttons.
 
 The Contact page is just details on how to reach me, so nothing fancy there-just a couple of links. The index.md page is mostly a welcome/about-me site, with a showcase of certifications. The Blog is the section I will probably have the most fun with. I hope this post is the first of many to come :)
 
@@ -43,7 +43,7 @@ paginate_path: "/blog/page:num"
 ```
 I also made a few test posts to see how the layout would look and if the next/previous page buttons would function correctly. During that testing, I made the mistake of creating files with future dates, which made them invisible. After fixing the dates, everything worked. Currently there are no longer test posts present in my repo, after testing there was no point in keeping them.
 
-Last but not least, I decided to buy a cheap domain—this was a good test of configuring DNS TXT, **A**, and **CNAME** records.
+Last but not least, I decided to buy a cheap domain, this was a good test of configuring DNS TXT, **A**, and **CNAME** records.
 
 <img src="/images/blog/github_pages/CNAME.png" alt="Image description" class="responsive-image">
 
