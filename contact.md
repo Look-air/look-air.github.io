@@ -8,6 +8,9 @@ title: "Contact"
   
   <h5>If you'd like to connect, feel free to reach out through any of the following channels:</h5>
 <hr>
+  <!-- TryHackMe -->
+  <p><strong>💻TryHackMe:</strong> <a href="https://www.tryhackme.com/p/wicz" target="_blank">tryhackme.com/p/wicz</a></p>
+
   <!-- LinkedIn -->
   <p><strong>♾LinkedIn:</strong> <a href="https://www.linkedin.com/in/wiktorowicz-lukasz/" target="_blank">linkedin.com/in/wiktorowicz-lukasz/</a></p>
 
