@@ -17,9 +17,11 @@ title: "Contact"
   <!-- TryHackMe -->
   <!-- <p><strong>💻TryHackMe:</strong> <a href="https://www.tryhackme.com/p/wicz" target="_blank">tryhackme.com/p/wicz</a></p> -->
   <p><strong>💻TryHackMe:</strong></p>
-  <iframe 
-  src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=5122595" 
-  style="border:none; overflow-x:hidden; width:100%; max-width:400px; height:150px; display:block; margin:0 auto;" 
-  scrolling="no">
-  </iframe>
+  <div style="display:flex; justify-content:center;">
+    <iframe 
+      src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=5122595" 
+      style="border:none; max-width:100%; width:400px; height:150px;" 
+      scrolling="no">
+    </iframe>
+  </div>
 </div>
