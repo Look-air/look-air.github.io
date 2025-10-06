@@ -19,7 +19,7 @@ title: "Contact"
   <p><strong>💻TryHackMe:</strong></p>
   <iframe 
   src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=5122595" 
-  style="border:none; overflow-x:hidden; width:100%; max-width:400px; height:150px;" 
+  style="border:none; overflow-x:hidden; width:100%; max-width:400px; height:150px; display:block; margin:0 auto;" 
   scrolling="no">
   </iframe>
 </div>
