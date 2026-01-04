@@ -11,6 +11,9 @@ title: "Contact"
   <!-- LinkedIn -->
   <p><strong>♾LinkedIn:</strong> <a href="https://www.linkedin.com/in/wiktorowicz-lukasz/" target="_blank">linkedin.com/in/wiktorowicz-lukasz/</a></p>
 
+  <!-- Credly -->
+  <p><strong>🏅Credly:</strong> <a href="https://www.credly.com/users/lukasz-wiktorowicz.3964a022/badges#credly" target="_blank">credly.com/users/lukasz-wiktorowicz.3964a022</a></p>
+  
   <!-- GitHub -->
   <p><strong>🖥GitHub:</strong> <a href="https://github.com/Look-air" target="_blank">github.com/Look-air</a></p>
 
