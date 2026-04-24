@@ -17,7 +17,7 @@ layout: default
 * playing with Homelab
 * writing blog posts
 
-#### Currently reading: *"Digital Forensics and Icident Response"* by Gerard Johansen
+#### Currently reading: *"Digital Forensics and Incident Response"* by Gerard Johansen
 #### Motto: *"Endure, in enduring grow strong"* Dak'kon - *Planescape Torment*
 
 <hr>
