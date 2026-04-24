@@ -2,7 +2,7 @@
 title: "CCNA passed"
 date: 2026-04-24
 image: /images/logos/ccna.png
-excerpt: "It's been a while since my last post. During that time I was grinding and learning a lot. I mostly followed the SOC L1 path on TryHackMe."
+excerpt: "Just got mine CCNA, what a journey ! Not gonna lie, staying consistent and learning everything was tough. I started 4 months ago."
 layout: blog
 ---
 <img src="/images/logos/ccna.png" alt="Image description" class="responsive-image">
