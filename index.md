@@ -13,7 +13,7 @@ layout: default
 
 #### Current goals: 
 
-* Studying Cisco "Cybersecurity Defense Analyst" path
+* studying Cisco "Cybersecurity Defense Analyst" path
 * progression through TryHackMe
 * playing with Homelab
 * writing blog posts
