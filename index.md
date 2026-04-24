@@ -13,13 +13,11 @@ layout: default
 
 #### Current goals: 
 
-* completing CCNA 200-301 course by Jeremy's IT lab
-* passing CCNA certification
 * progression through TryHackMe
 * playing with Homelab
 * writing blog posts
 
-#### Currently reading: *"Acing the CCNA exam"* by Jeremy McDowell
+#### Currently reading: *"Digital Forensics and Icident Response"* by Gerard Johansen
 #### Motto: *"Endure, in enduring grow strong"* Dak'kon - *Planescape Torment*
 
 <hr>
